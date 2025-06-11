@@ -1,6 +1,7 @@
 import streamlit as st
 import datetime
 
+
 def main():
     st.set_page_config(layout="centered")
 
