@@ -1,4 +1,6 @@
-# my-streamlit-todo-appimport streamlit as st 
+# my-streamlit-todo-app
+import streamlit as st 
+
 def main():
     # アプリのタイトル
     st.title("シンプルなToDoリストアプリ")
