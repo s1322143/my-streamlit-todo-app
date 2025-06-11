@@ -13,7 +13,7 @@ def main():
     new_todo = st.text_input("ここに新しいToDoを入力してください:")
 
     if st.button("ToDoを追加"):
-        if new_todo 
+        if new_todo: 
             # "task"にToDoの内容、"completed"に完了したかどうか（最初はFalse=未完了）
             st.session_state.todos.append({"task": new_todo, "completed": False})
             st.success("新しいToDoが追加されました！")
